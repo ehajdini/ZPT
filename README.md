@@ -1,5 +1,5 @@
 # jobify.al </br>
-<i>A platform that enables Albanian employers and employees find what they need </i> </br>
+<b><i>A platform that enables Albanian employers and employees find what they need.</i></b> </br></br>
 Unemployment in our country is a prevalent problem  which requires an immediate solution.
 One of the biggest issues in Albania is the shortage of software related to job seeking and  job announcing.
 
