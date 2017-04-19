@@ -1,4 +1,4 @@
-# ZPT </br>
+# ZPT 
 </br><hr>
 Unemployment in our country is a prevalent problem which requires an immediate solution. “Shërbimi Kombëtar i Punësimit” (SH.K.P) is an independent public service, under the status of the central state administration. It operates through regional and local employment offices and regional directorates of vocational training. "Zyra e Punësimit, Tiranë" is a local organ under the surveillance of SH.K.P. 
 
