@@ -15,6 +15,58 @@ class staff_login_class
     private $password;
     private $name;
     private $surname;
+    private $email;
+    private $phone;
+    private $office;
+
+    /**
+     * @return mixed
+     */
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    /**
+     * @param mixed $email
+     */
+    public function setEmail($email)
+    {
+        $this->email = $email;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPhone()
+    {
+        return $this->phone;
+    }
+
+    /**
+     * @param mixed $phone
+     */
+    public function setPhone($phone)
+    {
+        $this->phone = $phone;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getOffice()
+    {
+        return $this->office;
+    }
+
+    /**
+     * @param mixed $office
+     */
+    public function setOffice($office)
+    {
+        $this->office = $office;
+    }
+
 
     /**
      * @return mixed
@@ -102,6 +154,11 @@ class staff_login_class
             while($row = $result->fetch_assoc()) {
                 if($row["id"]==$this->id && $row["password"]==$this->password && $row["directory"]==$this->directory) {
                    echo "Success";
+                   $this->name=$row['name'];
+                   $this->surname=$row['surname'];
+                   $this->office=$row['office'];
+                   $this->email=$row['email'];
+                   $this->phone=$row['phone'];
                     return true;
                 }
 
